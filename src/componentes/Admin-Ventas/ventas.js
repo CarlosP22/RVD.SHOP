@@ -1,11 +1,11 @@
 import React from "react";
 import "./ventas.css";
 import { BiUserCircle, BiPencil } from 'react-icons/bi';
-import { RiShoppingCart2Line, RiMoneyDollarCircleLine } from 'react-icons/ri';
+import { RiMoneyDollarCircleLine } from 'react-icons/ri';
 import { MdOutlineListAlt } from 'react-icons/md';
 
 
-export const Prueba = (name) => {
+export const Ventas = () => {
     return (
         <div id="root">
 
@@ -13,7 +13,6 @@ export const Prueba = (name) => {
                 <header id="header">
                     <a href="Home" className="logo">RVD.SHOP</a>
                     <a href="Login" className="user"><BiUserCircle /></a>
-                    <a href="orden" className="car"><RiShoppingCart2Line /></a>
                 </header>
 
                 <nav>
@@ -24,10 +23,12 @@ export const Prueba = (name) => {
             </div>
 
             <div className="cont-section">
-                <section>
-                    <h2 id="tituloV">Ventas</h2>
+                
+                    <title className="titulos">
+                        <h2 id="tituloV">Ventas</h2>
+                    </title>
+                <section> 
                     <article>
-
                         <tr id="contorno">
                             <th id="tablaEn">
                                 IDVenta
