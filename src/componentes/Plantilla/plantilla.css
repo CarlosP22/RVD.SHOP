@@ -1,0 +1,155 @@
+:root{
+    --fuente: "Open Sans", sans-serif;
+
+    --azul_oscuro: #03445C;
+    --azul_medio: #0581AD;
+    --azul_neutro: #07A3DB;
+    --azul_claro: #6ED1F5;
+    --gris:#3F545C;
+    --blanco: #fff;
+    --negro: #000;
+    --gris_claro: #DEE7EA;
+}
+
+body {
+    font-family: var(--fuente);
+    margin: 0;
+}
+
+#header {
+    background-color: var(--azul_oscuro);
+    border-bottom: 5px solid var(--azul_oscuro);
+    font-size: 300%;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    right:20px;
+    top: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user:hover{
+    color: var(--azul_oscuro);
+    background-color: white ;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 30px;
+    background-color: var(--azul_neutro);
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+nav a:hover{
+    color:var(--azul_oscuro);
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2px ;
+    padding: 1px;
+    width: 500px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    min-height: 60px;  
+}
+
+#tituloV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    min-height: 50px;
+    font-size: 45px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    min-height: 630px;
+    width: 100%;
+    background-color: white;
+}
+
+section article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 630px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width: 1200px){
+    .cont-header,
+    .cont-section{
+        max-width: 1200px;
+    }
+    .subtitulos{
+        width:70%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .cont-section{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 730px){
+    .botones{
+        padding: 1px 10px;
+    }
+    
+}
