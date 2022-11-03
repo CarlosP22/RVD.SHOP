@@ -1,0 +1,137 @@
+:root{
+    --fuente: "Open Sans", sans-serif;
+
+    --azul_oscuro: #03445C;
+    --azul_medio: #0581AD;
+    --azul_neutro: #07A3DB;
+    --azul_claro: #6ED1F5;
+    --gris:#3F545C;
+    --gris_claro:#DEE7EA;
+    --amarillo:#E8B445;
+    --blanco: #fff;
+    --negro: #000;
+}
+.body{
+    margin: 20px;
+}
+
+.titulo{
+    padding: 20px 0 50px;
+    font-size: 3rem;
+}
+
+.boton{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--azul_medio);
+}
+.boton:hover{
+    color: var(--azul_neutro);
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 80vw;
+    padding: 2rem ;
+    margin: 0rem auto 50px;
+    background-color: var(--blanco);
+    box-shadow: 1px 1px 10px #656E7D55;
+}
+
+@media(max-width:768px){
+    .form{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 5px;
+        width: 100%;
+        max-width: 80%;
+    }
+}
+
+
+.nombre_campo{
+    position: relative;
+    left:0px;
+    top: 20px;
+    display: block;
+    padding-bottom: 5px;
+    width: 100%;
+    max-width: 60px;
+    color: var(--vinotinto);
+}
+
+@media (max-width:768px){
+    .nombre_campo{
+        left: 0px;
+    }
+}
+
+.campo{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: none;
+    border-bottom: 2px solid #656E7D22;
+    outline: none;
+    font-size: 1rem;
+}
+
+.campo:hover{
+    border:none;
+    border-bottom: 2px solid var(--gris);
+}
+
+.descripcion{
+    height: 10rem;
+    margin: 30px auto 0;
+    border: 2px solid #66626222;
+    border-radius: 5px;
+    resize: none;
+}
+
+.descripcion:hover{
+    border:none;
+    border: 2px solid var(--gris);
+}
+
+.boton_form{
+    margin: 50px auto 20px;
+    display: block;
+    height: 50px;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 50px;
+    border: 3px solid var(--azul_oscuro);
+    font-size: 1rem;
+    background-color: var(--azul_medio);
+    color: var(--blanco);
+
+}
+
+.boton_form:hover{
+    background-color: var(--azul_neutro);
+    color: var(--blanco);
+
+}
+
+.boton{
+    grid-column-start: span 2;
+}
+
+.img_producto{
+    display: block;
+    width: 80%;
+    height: 20rem;
+    margin: 3rem auto 1rem;
+    border: 2px solid var(--azul_oscuro);
+    border-radius: 10px;
+    background-color: var(--gris_claro);
+}
+
+.boton_subir{
+    display: block;
+    margin: 0 auto;
+}
