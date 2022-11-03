@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowAltCircleLeft } from 'react-icons/fa';
-import { Plantilla } from "../Plantilla/plantilla.js";
+import { PlantillaAdmin } from "../Admin-Plantilla/plantilla.js";
 import "./agregar.css";
 
 const HeaderAgregar = () =>{
     return(
         
         <div className="contenedor">
-            <Plantilla/>
+            <PlantillaAdmin/>
             <body className="body">
                 <h1 className="titulo"> Agregar Producto </h1>
                 <Link to="/" className="boton"><FaArrowAltCircleLeft/> </Link>

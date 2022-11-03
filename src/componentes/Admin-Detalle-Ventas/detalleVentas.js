@@ -1,12 +1,12 @@
 import React from "react";
 import "./detalleVentas.css";
-import { Plantilla } from "../Plantilla/plantilla.js";
+import { PlantillaAdmin } from "../Admin-Plantilla/plantilla.js";
 
 
 export const DetallesVentas = () => {
     return (
         <div id="root">
-            <Plantilla/>
+            <PlantillaAdmin/>
 
             <div className="cont-section">
                 <title className="titulos">

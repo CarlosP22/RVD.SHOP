@@ -1,12 +1,12 @@
 import React from "react";
-import "./productos.css"
-import { PlantillaClient } from "../Client-Plantilla/plantilla";
+import { PlantillaAdmin } from "../Admin-Plantilla/plantilla.js";
+import "./listaProductos.css"
 
-export const ListProd = () => {
-    return (
+const  ListaProductos = () =>{
+    return(
         <div id="root">
 
-            <PlantillaClient />
+            <PlantillaAdmin/>
             <div className="cont-section">
 
                 <title className="titulos">
@@ -56,4 +56,7 @@ export const ListProd = () => {
             </div>
         </div>
     )
+    
 }
+
+export default ListaProductos

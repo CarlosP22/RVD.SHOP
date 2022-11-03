@@ -1,11 +1,11 @@
 import React from "react";
-import { Plantilla } from "../Plantilla/plantilla.js";
+import { PlantillaAdmin } from "../Admin-Plantilla/plantilla.js";
 import "./modificar.css"
 
 const  HeaderModificar = () =>{
     return(
         <div>
-            <Plantilla/>
+            <PlantillaAdmin/>
             
             <body className="body">
                 <h1 className="titulo"> Modificar Producto </h1>
