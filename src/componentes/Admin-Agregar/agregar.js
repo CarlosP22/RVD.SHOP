@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowAltCircleLeft } from 'react-icons/fa';
-import { Plantilla } from "../Plantilla/plantilla";
+import { Plantilla } from "../Plantilla/plantilla.js";
 import "./agregar.css";
 
 const HeaderAgregar = () =>{

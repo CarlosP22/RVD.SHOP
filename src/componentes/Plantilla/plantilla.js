@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./plantilla.css";
 import { BiUserCircle, BiPencil } from 'react-icons/bi';
 import { RiMoneyDollarCircleLine } from 'react-icons/ri';
@@ -11,32 +12,15 @@ export const Plantilla = () => {
 
             <div className="cont-header">
                 <header id="header">
-                    <a href="Home" className="logo">RVD.SHOP</a>
-                    <a href="Login" className="user"><BiUserCircle /></a>
+                    <Link to="/" className="logo">RVD.SHOP</Link>
+                    <Link to="/" className="user"><BiUserCircle /></Link>
                 </header>
 
                 <nav>
-                    <a href="Lista-Productos" className="botones"><MdOutlineListAlt id="icon" /> Opcion 1 </a>
-                    <a href="Modificar-Productos" className="botones"> <BiPencil id="icon" /> Opcion 2 </a>
-                    <a href="Ventas" className="botones"><RiMoneyDollarCircleLine id="icon" /> Opcion 3 </a>
+                    <Link to="/" className="botones"><MdOutlineListAlt id="icon" /> Productos</Link>
+                    <Link to="/modificar" className="botones"><BiPencil id="icon" /> Modificar Productos </Link>
+                    <Link to="/ventas" className="botones"><RiMoneyDollarCircleLine id="icon" /> Ventas</Link>
                 </nav>
-            </div>
-
-            <div className="cont-section">
-                
-                    <title className="titulos">
-                        <h2 id="tituloV">TITULO</h2>
-                    </title>
-                <section> 
-                    <article>
-                        <h2>
-                            CUERPO
-                        </h2>
-                    </article>
-
-                </section>
-
-                <div class="clearfix"></div>
             </div>
 
         </div>

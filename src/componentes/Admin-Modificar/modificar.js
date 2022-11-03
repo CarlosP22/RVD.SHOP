@@ -1,5 +1,5 @@
 import React from "react";
-import { Plantilla } from "../Plantilla/plantilla";
+import { Plantilla } from "../Plantilla/plantilla.js";
 import "./modificar.css"
 
 const  HeaderModificar = () =>{
