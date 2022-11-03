@@ -17,6 +17,7 @@ function App() {
         <Route path="/ventas" element={<Ventas/>} />
         <Route path="/detalle-venta" element={<DetallesVentas/>} />
         <Route path="/productos-cliente" element={<ListProd />} />
+        <Route path="/carrito" element={<CarritoDeCompras/>} />
       </Routes>
     </BrowserRouter>
   );
