@@ -7,6 +7,7 @@ import {Ventas} from "./componentes/Admin-Ventas/ventas.js";
 import { ListProd } from "./componentes/Client-ListProd/productos.js";
 import ListaProductos from "./componentes/Admin-ListProd/listaProductos.js";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -17,7 +18,7 @@ function App() {
         <Route path="/ventas" element={<Ventas/>} />
         <Route path="/detalle-venta" element={<DetallesVentas/>} />
         <Route path="/productos-cliente" element={<ListProd />} />
-        <Route path="/carrito" element={<CarritoDeCompras/>} />
+        <Route path="/carrito" /*component={indexedDB.html}*/ />
       </Routes>
     </BrowserRouter>
   );

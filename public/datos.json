@@ -1,0 +1,112 @@
+[
+    {
+      "precio": 799000,
+      "id": 1,
+      "descripcion": "Motorola G60 Negro",
+      "url": "./images/motorolag60.jfif",
+      "stock":5
+    },
+    {
+      "precio": 625000,
+      "id": 2,
+      "descripcion": "Huawei Y70 Azul",
+      "url": "./images/HuaweiY70.jfif",
+      "stock":10
+    },
+    {
+      "precio": 835000,
+      "id": 3,
+      "descripcion": "Samsung A23 Negro",
+      "url": "./images/samsungA23.jfif",
+      "stock":10
+    },
+    {
+      "precio": 2999000,
+      "id": 4,
+      "descripcion": "eIphone SE Rojo",
+      "url": "./images/iphone SE256.jfif",
+      "stock":10
+    },
+    {
+      "precio": 379000,
+      "id": 5,
+      "descripcion": "ZTE Blade A51 GRIS",
+      "url": "./images/ZTE Blade A51.jfif",
+      "stock":10
+    },
+    {
+      "precio": 1529000,
+      "id": 6,
+      "descripcion": "Computador Portátil HP 15.6 Pulgadas ef2508la - AMD Ryzen 5 - RAM 4GB - Disco SSD 256 GB - Negro",
+      "url": "./images/PortatilHP15-6.jfif",
+      "stock":10
+    },
+    {
+      "precio": 1759000,
+      "id": 7,
+      "descripcion": "Computador Portátil ASUS 15,6 Pulgadas X515EA - Intel Core i3 - RAM 8GB - Disco SSD 512 GB - Plateado",
+      "url": "./images/PortatilAsus15-6.jfif",
+      "stock":10
+
+    },
+    {
+      "precio": 1899000,
+      "id": 8,
+      "descripcion": "Computador Portátil LENOVO 15.6 Pulgadas IdeaPad 5 - AMD Ryzen 5 - RAM 8GB - Disco SSD 512GB - Azul",
+      "url": "./images/PortatilLenovo15-6.jfif",
+      "stock":10
+    },
+    {
+      "precio": 1249000,
+      "id": 9,
+      "descripcion": "Computador Portátil ACER 14 Pulgadas R9GE - AMD Ryzen 3 - RAM 4GB - Disco SSD 256GB - Platead",
+      "url": "./images/PortatilAcer14.jfif",
+      "stock":10
+    },
+    {
+      "precio": 4659000,
+      "id": 10,
+      "descripcion": "Computador Portátil ASUS TUF Dash 15,6 Pulgadas FX517ZC - Intel Core i5 - RAM 16GB - Disco SSD 512 GB - Negro",
+      "url": "./images/PortatilAsusTUFDash15-6.jfif",
+      "stock":10
+
+    },
+    {
+        "precio": 2999000,
+        "id": 11,
+        "descripcion": "TV SAMSUNG 65 Pulgadas 165.1 cm QN65Q65BA 4K-UHD QLED Plano Smart TV",
+        "url": "./images/TVsamsung65.jfif",
+        "stock":10
+      },
+      {
+        "precio": 2899000,
+        "id": 12,
+        "descripcion": "TV LG 65 Pulgadas 164 cm 65UP7760PSB 4K-UHD LED Plano Smart TV",
+        "url": "./images/TVLG65.jfif",
+        "stock":10
+  
+      },
+      {
+        "precio": 1725000,
+        "id": 13,
+        "descripcion": "TV KALLEY 55 Pulgadas 139 cm ATV55UHDW 4K-UHD LED Plano Smart TV Android",
+        "url": "./images/TVKalley55.jfif",
+        "stock":10
+      },
+      {
+        "precio": 1109000,
+        "id": 14,
+        "descripcion": "TV CHALLENGER 43 Pulgadas 108 cm 43LO68BT T2 ANDROID FHD LED Plano Smart TV Android",
+        "url": "./images/TVChallenger43.jfif",
+        "stock":10
+      },
+      {
+        "precio": 4099000,
+        "id": 15,
+        "descripcion": "TV LG 75 Pulgadas 189 cm 75NANO75SQA 4K-UHD NanoCell Plano Smart TV ",
+        "url": "./images/TVLGNanoCell75.jfif",
+        "stock":10
+  
+      }
+
+]
